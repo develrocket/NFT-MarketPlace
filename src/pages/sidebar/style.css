@@ -1,0 +1,30 @@
+
+#sidebar .pro-inner-list-item{
+    background-color: white;
+
+}
+#sidebar{
+    /* border-right: 2px solid #F0F0F0; */
+    min-height: 100vh;
+}
+
+#sidebar1{
+    background-color: rgb(39 38 44);
+    /* border-right: 2px solid #2ba55d; */
+    min-height: 100vh;
+}
+
+.pro-sidebar{
+    transition: width, left, right, 0.0s;
+}
+
+.pro-sidebar > .pro-sidebar-inner{
+    background-color: white;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-item-content {
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 20px;
+}
